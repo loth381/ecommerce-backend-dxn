@@ -1812,7 +1812,7 @@
     semver "7.5.4"
     umzug "3.2.1"
 
-"@strapi/design-system@1.19.0":
+"@strapi/design-system@1.19.0", "@strapi/design-system@^1.6.3":
   version "1.19.0"
   resolved "https://registry.npmjs.org/@strapi/design-system/-/design-system-1.19.0.tgz"
   integrity sha512-kEQNaRztIcr6I5Zh6mxtE/Nmkk1mylCS5s56ySKDdqOjWZw2BCbS72/J9k6r1RF1TLIDSXJN9r5dHR0ZKtWvBQ==
@@ -1863,7 +1863,7 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
-"@strapi/helper-plugin@4.25.5":
+"@strapi/helper-plugin@4.25.5", "@strapi/helper-plugin@^4.6.0":
   version "4.25.5"
   resolved "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.25.5.tgz"
   integrity sha512-RF/w2ENxTZ8zjM9VHHXhlDvv+JeNEmeIClMjHtjY2xU44lYPrcZU023yS2IhnbRM1AG1ABAwje6743ygNX+Lfw==
@@ -9263,6 +9263,15 @@ statuses@2.0.1, statuses@^2.0.1:
   version "1.5.0"
   resolved "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
+
+strapi-health-plugin@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-health-plugin/-/strapi-health-plugin-1.0.1.tgz#f072cf5f1f61fbe4b57a232396700a1cfd1123b2"
+  integrity sha512-XUwMmerGa17fYEQNvk4Ub1UAdhcbN9XCYL7BqHJknmJcbkN8A55l7XR5AF1COc/neROygd1H+arMd1o+VlSEmQ==
+  dependencies:
+    "@strapi/design-system" "^1.6.3"
+    "@strapi/helper-plugin" "^4.6.0"
+    prop-types "^15.7.2"
 
 strapi-neon-tech-db-branches@^0.1.18:
   version "0.1.18"
