@@ -43,10 +43,10 @@
     "origin": {
       "type": "enumeration",
       "enum": [
-        "Africa",
-        "Asia",
-        "America",
-        "Eur"
+        "Productos de DXN",
+        "Higiene personal",
+        "Mascarillas",
+        "Cafés y Jugos"
       ]
     },
     "taste": {

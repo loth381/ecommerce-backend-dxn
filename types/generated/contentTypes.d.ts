@@ -412,7 +412,14 @@ export interface ApiProductProduct extends Schema.CollectionType {
     images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     active: Attribute.Boolean & Attribute.DefaultTo<true>;
     price: Attribute.Decimal;
-    origin: Attribute.Enumeration<['Africa', 'Asia', 'America', 'Eur']>;
+    origin: Attribute.Enumeration<
+      [
+        'Productos de DXN',
+        'Higiene personal',
+        'Mascarillas',
+        'Caf\u00E9s y Jugos'
+      ]
+    >;
     taste: Attribute.Enumeration<['sweet', 'citric']>;
     isFeatured: Attribute.Boolean;
     category: Attribute.Relation<
